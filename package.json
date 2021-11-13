@@ -1,0 +1,25 @@
+{
+   "name": "csvImportProject",
+   "version": "0.0.1",
+   "description": "Import Revenue CSV File.",
+   "devDependencies": {
+      "@types/body-parser": "^1.19.1",
+      "@types/express": "^4.17.13",
+      "@types/node": "^8.0.29",
+      "ts-node": "3.3.0",
+      "typescript": "3.3.3333"
+   },
+   "dependencies": {
+      "@types/csvtojson": "^2.0.0",
+      "body-parser": "^1.19.0",
+      "csvtojson": "^2.0.10",
+      "express": "^4.17.1",
+      "mysql2": "^2.3.3-rc.0",
+      "reflect-metadata": "^0.1.10",
+      "typeorm": "0.2.40"
+   },
+   "scripts": {
+      "dev": "ts-node src/server.ts",
+      "typeorm": "node --require ts-node/register ./node_modules/typeorm/cli.js"
+   }
+}
